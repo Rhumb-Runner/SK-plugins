@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "multipleParametersArray": {
+      "type": "array",
+      "title": "Sigbus param and SK Path",
+      "items": {
+        "type": "object",
+        "required": [
+          "Sigbus",
+          "Sk_Path",
+          "Subscribe"
+        ],
+        "properties": {
+          "Sigbus": {
+            "type": "string",
+            "title": "Sigbus Channel Charater -  See SL425 Manual Section 3.1.4",
+            "default": "A"
+          },
+          "Sk_Path": {
+            "type": "string",
+            "title": "SK Path to map Sigbus Channel to",
+            "default": "some.path"
+	  },
+          "Subscribe": {
+            "type": "boolean",
+            "title": "Send a request to subscribe to Sigbus channel.",
+            "default": false
+          }
+        }
+      }
+    }
+  }
+}
