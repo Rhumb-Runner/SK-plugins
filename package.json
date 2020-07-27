@@ -9,5 +9,9 @@
   "author": "Chuck bowers <cjbacts2024@gmail.com>",
   "license": "Apache-2.0"
   "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Rhumb-Runner/SK-plugins.git"
+  },
 }
 
